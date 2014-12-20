@@ -5,9 +5,8 @@ var count = 0;
 
 /* GET home page. */
 router.get('/', function(req, res) {
-//  res.render('index', { title: 'Express' });
 	count++;
-	res.send("count: " + count);
+    res.render('index', { title: 'Express', count: count });
 });
 
 
