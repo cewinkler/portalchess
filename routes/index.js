@@ -4,12 +4,16 @@ var router = express.Router();
 var count = 0;
 
 exports.index = function(req, res) {
-	count++;
-	res.locals = {
-		title: 'Express',
-		count: count
-	};
-	return res.render('index',{ partials: { part: 'part' } });
+    count++;
+    res.locals = {
+        title: 'PortalChess',
+        count: count
+    };
+    return res.render('index', {
+        partials: {
+            part: 'part'
+        }
+    });
 };
 
 /* 
