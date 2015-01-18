@@ -961,6 +961,7 @@
     <Content Include="routes\users.js" />
     <Content Include="views\error.html" />
     <Content Include="views\index\index.html" />
+    <Content Include="views\index\layout.html" />
     <Content Include="views\index\_test.html" />
     <Content Include="views\part.html" />
   </ItemGroup>
