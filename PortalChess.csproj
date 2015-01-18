@@ -952,6 +952,7 @@
     <Content Include="public\javascripts\angular-touch.min.js" />
     <Content Include="public\javascripts\angular.min.js" />
     <Content Include="public\javascripts\app\app.js" />
+    <Content Include="public\javascripts\app\ctrl\ChessCtrl.js" />
     <Content Include="public\javascripts\bootstrap.min.js" />
     <Content Include="public\javascripts\knockout-3.2.0.js" />
     <Content Include="public\javascripts\lodash.js" />
