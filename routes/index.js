@@ -9,9 +9,10 @@ exports.index = function(req, res) {
         title: 'PortalChess',
         count: count
     };
-    return res.render('index', {
+    return res.render('index/index', {
         partials: {
-            part: 'part'
+            layout: 'layout',
+            partial: 'index/_test'
         }
     });
 };
