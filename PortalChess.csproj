@@ -939,22 +939,9 @@
     <Content Include="node_modules\serve-favicon\node_modules\fresh\index.js" />
     <Content Include="node_modules\serve-favicon\node_modules\ms\index.js" />
     <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="public\javascripts\angular-animate.min.js" />
-    <Content Include="public\javascripts\angular-aria.min.js" />
-    <Content Include="public\javascripts\angular-cookies.min.js" />
-    <Content Include="public\javascripts\angular-loader.min.js" />
-    <Content Include="public\javascripts\angular-messages.min.js" />
-    <Content Include="public\javascripts\angular-mocks.js" />
-    <Content Include="public\javascripts\angular-resource.min.js" />
-    <Content Include="public\javascripts\angular-route.min.js" />
-    <Content Include="public\javascripts\angular-sanitize.min.js" />
-    <Content Include="public\javascripts\angular-scenario.js" />
-    <Content Include="public\javascripts\angular-touch.min.js" />
-    <Content Include="public\javascripts\angular.min.js" />
-    <Content Include="public\javascripts\app\app.js" />
-    <Content Include="public\javascripts\app\ctrl\ChessCtrl.js" />
     <Content Include="public\javascripts\bootstrap.min.js" />
     <Content Include="public\javascripts\knockout-3.2.0.js" />
+    <Content Include="public\javascripts\knockout.mapping-latest.js" />
     <Content Include="public\javascripts\lodash.js" />
     <Content Include="public\stylesheets\bootstrap.min.css" />
     <Content Include="public\stylesheets\style.css" />
@@ -3421,6 +3408,9 @@
     <Folder Include=".git\objects\pack\" />
     <Folder Include=".git\refs\tags\" />
     <Folder Include="public\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="public\javascripts\ko\chess-board.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
