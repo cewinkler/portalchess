@@ -3411,6 +3411,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="public\javascripts\ko\chess-board.ts" />
+    <TypeScriptCompile Include="public\javascripts\ko\pieces\piece.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
