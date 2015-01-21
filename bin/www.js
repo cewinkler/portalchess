@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 var debug = require('debug')('portalchess');
 var app = require('../app');
 

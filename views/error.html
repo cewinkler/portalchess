@@ -1,1 +1,13 @@
-{{ error }}
+{{< layout}}
+{{$content}}
+<p/>
+<div class="panel panel-danger">
+    <div class="panel-heading">
+        {{ error }}
+    </div>
+    <div class="panel-body">
+        {{ error.message }}
+    </div>
+</div>
+{{/content}}
+{{/layout}}

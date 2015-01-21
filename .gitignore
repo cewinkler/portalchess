@@ -1,5 +1,6 @@
 obj/
-bin/
+bin/Release/
+bin/Debug/
 PortalChess.csproj.user
 PortalChess.sln
 PortalChess.v12.suo

@@ -6,7 +6,6 @@ class ChessBoard {
      moveList: ChessMove[];
  }
 
-
  class BoardLocation {
      position: BoardPosition;
      piece: IChessPiece;
