@@ -14,7 +14,7 @@ var User = mongoose.model('User', userSchema);
 
 
 /* GET users listing. */
-router.get('/', function (req, res) {
+router.get('/users', function (req, res) {
     async (function() {
         await(function () { db.once('open'); });
 
