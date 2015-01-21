@@ -6,7 +6,7 @@ var await = require('asyncawait/await');
 
 var mongoose = require('mongoose');
 var db = mongoose.connection;
-var userSchema = mongoose.userSchema({
+var userSchema = mongoose.Schema({
     username: String,
     password: String,
 });
