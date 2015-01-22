@@ -5,7 +5,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var mongoose = require('mongoose');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function () {
+    console.log("Connected to mongo");
+});
+mongoose.connect('mongodb://localhost/portalchess');
 
 var app = express();
 
@@ -31,7 +37,7 @@ app.use(session({
 }));
 
 app.get('/', require('./routes/index').index);
-app.get('/users', require('./routes/users'));
+app.use('/users', require('./routes/users'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
